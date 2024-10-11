@@ -39,7 +39,7 @@ checkBtn.addEventListener('click', () => {
 
     // WIN CASE
     if (inputValue === guessNumber) {
-        message.textContent = "Correct Number";
+        message.textContent = "🚀 Correct Number";
         number.textContent = guessNumber;
         handleHighScore(score)
         highScoreEle.textContent = highScore;
