@@ -102,7 +102,7 @@ body {
     margin: 1rem;
 }
 
-#againBtn {
+.againBtn {
     margin: 0.5rem;
     padding: 0.4rem 2rem;
     border-radius: 10px;
@@ -114,6 +114,21 @@ body {
 
     &:hover {
         background-color: #d92b28;
+    }
+
+}
+.insBtn {
+    margin: 0.5rem;
+    padding: 0.4rem 1rem;
+    border-radius: 10px;
+    background-color: #123ecffc;
+    color: white;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: #285ad9d1;
     }
 
 }

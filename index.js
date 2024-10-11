@@ -86,3 +86,10 @@ resetBtn.addEventListener('click', () => {
     });
 
 })
+
+
+const instructionsBtn = document.getElementById('instructionsBtn');
+
+instructionsBtn.addEventListener('click', () => {
+    window.open('https://github.com/AjayNegi7/GuessMyNumber/blob/main/README.md', '_blank'); 
+});
